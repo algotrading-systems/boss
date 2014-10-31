@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>hubPage</title>
+    <link href="/pages/hub/hub.css" rel="stylesheet" />
+    <script src="/js/data.js"></script>
+    <script src="/pages/hub/hub.js"></script>
+    <!--<script src="/pages/hub/sectionIndicatorsPage.js"></script>-->
+</head>
+<body>
+    <div class="hubpage fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="backbutton" data-win-control="WinJS.UI.BackButton"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Binary Options Signals</span>
+            </h1>
+        </header>
+
+        <section aria-label="Main content" role="main">
+            <!-- Настроим элемент управления Hub, изменив здесь элементы управления HubSection. -->
+            <div class="hub" data-win-control="WinJS.UI.Hub">
+                <div class="indicator-section" data-win-control="WinJS.UI.HubSection" data-win-options="{isHeaderStatic: true, 'header': 'Indicators'}" data-win-res="{}">
+                    <div id="sectionIndicatorsContenthost" data-win-control="HubApps_SectionControls.SectionIndicatorsControl">
+                        <div class="indicators-list" id="basicTemplateListView" data-win-control="WinJS.UI.ListView" data-win-options="{
+                             selectionMode: 'none',
+                             layout: {type: WinJS.UI.ListLayout},
+                             itemDataSource : Data.indicators.dataSource,
+                             itemTemplate: select('#indicatorItemTemplate')}">
+                        </div>
+                    </div>
+                </div>
+                <div class="indicator-section" data-win-control="WinJS.UI.HubSection" data-win-options="{isHeaderStatic: true, 'header': 'Settings'}" data-win-res="{}">
+                    Any application settings...
+                </div>
+        </section>
+    </div>
+</body>
+</html>

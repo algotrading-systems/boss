@@ -1,0 +1,24 @@
+﻿// Сведения о локализации приложения Windows см. в разделе http://go.microsoft.com/fwlink/?LinkId=212836
+
+{
+    "Section1": "Раздел 1",
+	"Section1Title": "Заголовок раздела 1",
+    "Section1Subtext": "Lorem ipsum dolor sit amet",
+    "Section1Description": "Lorem ipsum dolor sit amet, consectetur ising elit, sed diam nonummy nibh uismod tincidunt ut laoreet suscipit lobortis nisl ut wisi quipexerci quis consequat minim veniam, quis nostrud. exerci tation ullam corper.",
+
+    "Section2": "Раздел 2",
+    "Section2ItemTitle": "Заголовок элемента",
+    "Section2ItemSubtitle": "Подзаголовок элемента",
+    "Section2Subtext": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
+    "Section2Description": "Lorem ipsum dolor sit amet, consectetur ising elit, sed diam nonummy nibh uismod tincidunt ut laoreet suscipit lobortis nisl ut wisi quipexerci quis consequat minim veniam, quis nostrud. exerci tation ullam corper.",
+    
+    "Section3": "Раздел 3",
+	"Section3ItemTitle": "Заголовок элемента",
+	"Section3Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+    
+    "Section4": "Раздел 4",
+    "Section4Description": "Lorem ipsum dolor sit amet, consectetur ising elit, sed diam nonummy nibh uismod tincidunt ut laoreet suscipit lobortis nisl ut wisi quipexerci quis consequat minim veniam, quis nostrud. exerci tation ullam corper.",
+
+    "DescriptionText": "Lorem ipsum dolor sit amet:",
+    "SectionSubtitle": "Подзаголовок раздела"
+}
