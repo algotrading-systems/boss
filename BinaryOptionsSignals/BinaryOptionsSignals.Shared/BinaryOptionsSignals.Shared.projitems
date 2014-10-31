@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>1c30b232-f809-4a4d-873b-ca5cb7280bdb</SharedGUID>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)js\default.js" />
+    <Content Include="$(MSBuildThisFileDirectory)js\data.js" />
+    <Content Include="$(MSBuildThisFileDirectory)js\navigator.js" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\hub\hub.js" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\hub\section1Page.html" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\hub\section1Page.js" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\hub\section2Page.html" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\hub\section2Page.js" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\hub\section3Page.js" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\hub\section4Page.html" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\hub\section4Page.js" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\item\item.css" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\item\item.html" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\item\item.js" />
+    <Content Include="$(MSBuildThisFileDirectory)images\gray.png" />
+    <PRIResource Include="$(MSBuildThisFileDirectory)strings\ru-RU\resources.resjson" />
+  </ItemGroup>
+</Project>

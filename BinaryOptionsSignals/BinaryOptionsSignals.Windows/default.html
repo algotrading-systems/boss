@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>BinaryOptionsSignals.Windows</title>
+
+    <!-- Ссылки WinJS -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <!-- Ссылки bos -->
+    <script src="/js/MobileServices.js"></script>
+    <script src="/services/mobileServices/settings/bos.js"></script>
+
+    <!-- Ссылки BinaryOptionsSignals -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/data.js"></script>
+    <script src="/js/navigator.js"></script>
+    <script src="/js/default.js"></script>
+</head>
+<body>
+
+    <div id="indicatorItemTemplate" data-win-control="WinJS.Binding.Template">
+        <div class="indicator-item">
+            <!-- Displays the "Indicator" object. -->
+            <!--
+                {"symbol":"CHFJPY","direction":"1","time":"2014-10-31 14:03:39","level":"10"},-->
+            <h4 data-win-bind="innerText: symbol"></h4>
+            <div>
+                <span data-win-bind="innerText: direction"></span>
+                <span data-win-bind="innerText: time"></span>
+                <span data-win-bind="innerText: level"></span>
+            </div>
+            <!--<img class="mediumListIconTextItem-Image" src="#" data-win-bind="alt: title; src: picture" />-->
+        </div>
+    </div>     
+
+    <div id="contenthost" data-win-control="Application.PageControlNavigator" data-win-options="{home: '/pages/hub/hub.html'}"></div>
+    <!--
+        <div id="basicTemplateListView" data-win-control="WinJS.UI.ListView" data-win-options="{itemDataSource : Data.indicators, itemTemplate: select('#indicatorItemTemplate')}"></div>s
+    -->
+    <!--
+    <div id="appbar" data-win-control="WinJS.UI.AppBar">
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmd', label:'Command', icon:'placeholder'}" type="button"></button>
+    </div>
+    -->
+
+</body>
+</html>
