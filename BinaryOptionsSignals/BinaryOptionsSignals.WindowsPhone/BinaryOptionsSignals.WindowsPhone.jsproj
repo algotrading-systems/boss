@@ -55,6 +55,11 @@
     <Content Include="images\Square71x71Logo.scale-240.png" />
     <Content Include="images\SplashScreen.scale-240.png" />
     <Content Include="images\StoreLogo.scale-240.png" />
+    <Content Include="js\MobileServices.intellisense.js" />
+    <Content Include="js\MobileServices.js" />
+    <Content Include="js\MobileServices.min.js" />
+    <Content Include="js\MobileServices.pri" />
+    <Content Include="packages.config" />
     <Content Include="pages\hub\hubPhone.css" />
     <Content Include="pages\hub\hub.html" />
     <Content Include="pages\hub\section3Page.html" />
@@ -62,6 +67,9 @@
     <Content Include="css\ui-themed.css" />
     <Content Include="css\ui-themed.theme-dark.css" />
     <Content Include="css\ui-themed.theme-light.css" />
+    <Content Include="services\mobileServices\settings\bos.js">
+      <ConnectedServiceReference>bos</ConnectedServiceReference>
+    </Content>
     <Content Include="StoreManifest.xml" />
   </ItemGroup>
   <ItemGroup>

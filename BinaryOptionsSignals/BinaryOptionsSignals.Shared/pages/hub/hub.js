@@ -10,6 +10,7 @@
     //var section3Items = Data.getItemsFromGroup(section3Group);
 
     WinJS.UI.Pages.define("/pages/hub/hub.html", {
+
         processed: function (element) {
             return WinJS.Resources.processAll(element);
         },
