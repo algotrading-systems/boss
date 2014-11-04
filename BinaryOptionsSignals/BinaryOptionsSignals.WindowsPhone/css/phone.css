@@ -29,3 +29,11 @@
 		.fragment header[role=banner] .titlearea .pagetitle {
 			width: calc(100% - 20px);
 		}
+
+#sectionIndicatorsContenthost{
+    height: 100%;
+}
+
+.indicators-list{
+    height: 100%;
+}

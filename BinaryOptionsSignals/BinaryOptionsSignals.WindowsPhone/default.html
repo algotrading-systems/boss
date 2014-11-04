@@ -26,16 +26,14 @@
 
     <div id="indicatorItemTemplate" data-win-control="WinJS.Binding.Template">
         <div class="indicator-item">
-            <!-- Displays the "Indicator" object. -->
             <h4 data-win-bind="innerText: symbol"></h4>
             <div>
                 <span data-win-bind="innerText: direction"></span>
                 <span data-win-bind="innerText: time"></span>
                 <span data-win-bind="innerText: level"></span>
             </div>
-            <!--<img class="mediumListIconTextItem-Image" src="#" data-win-bind="alt: title; src: picture" />-->
         </div>
-    </div>     
+    </div>  
 
     <div id="contenthost" data-win-control="Application.PageControlNavigator" data-win-options="{home: '/pages/hub/hub.html'}"></div>
 
