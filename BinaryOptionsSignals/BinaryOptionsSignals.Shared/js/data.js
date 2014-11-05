@@ -8,7 +8,7 @@
     });
 
     function loadIndicatorsFromCloud() {
-        bosClient.getTable("Indicator").read().done(function (indicators) {
+        bossClient.getTable("Indicator").read().done(function (indicators) {
             indicators.forEach(function (indicator) {
                 indicatorsList.push(indicator);
             });
