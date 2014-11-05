@@ -25,7 +25,9 @@
 
             // Оптимизация загрузки приложений и выполнение запланированных задач с высоким приоритетом во время отображения экрана-заставки.
             ui.disableAnimations();
-            var p = ui.processAll().then(function () {
+            var promise = Data.loadFromCloud().then(function () {
+                ui.processAll()
+            }).then(function () {
                 return nav.navigate(nav.location || Application.navigator.home, nav.state);
             }).then(function () {
                 return sched.requestDrain(sched.Priority.aboveNormal + 1);
@@ -33,7 +35,7 @@
                 ui.enableAnimations();
             });
 
-            args.setPromise(p);
+            args.setPromise(promise);
         }
     });
 
