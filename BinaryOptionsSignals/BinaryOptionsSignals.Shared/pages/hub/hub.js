@@ -5,10 +5,6 @@
     var session = WinJS.Application.sessionState;
     var util = WinJS.Utilities;
 
-    // Получение групп, используемых разделами Hub с привязкой к данным.
-    //var section3Group = Data.resolveGroupReference("group4");
-    //var section3Items = Data.getItemsFromGroup(section3Group);
-
     WinJS.UI.Pages.define("/pages/hub/hub.html", {
 
         processed: function (element) {
@@ -31,8 +27,6 @@
             // TODO: Инициализируйте здесь страницу.
         },
 
-        //section3DataSource: section3Items.dataSource,
-
         //section3HeaderNavigate: util.markSupportedForProcessing(function (args) {
            // nav.navigate("/pages/section/section.html", { title: args.detail.section.header, groupKey: section3Group.key });
         //}),
@@ -48,7 +42,6 @@
 
         updateLayout: function (element) {
             /// <param name="element" domElement="true" />
-
             // TODO: Отвечайте на изменения в макете.
         },
     });
