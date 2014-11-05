@@ -67,8 +67,8 @@
     <Content Include="css\ui-themed.css" />
     <Content Include="css\ui-themed.theme-dark.css" />
     <Content Include="css\ui-themed.theme-light.css" />
-    <Content Include="services\mobileServices\settings\bos.js">
-      <ConnectedServiceReference>bos</ConnectedServiceReference>
+    <Content Include="services\mobileServices\settings\boss.js">
+      <ConnectedServiceReference>boss</ConnectedServiceReference>
     </Content>
     <Content Include="StoreManifest.xml" />
   </ItemGroup>
