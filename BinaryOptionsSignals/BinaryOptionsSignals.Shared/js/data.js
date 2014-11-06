@@ -18,6 +18,9 @@
                         }
                     });
                     completeDispatch(indicators.length);
+                }, function (error) {
+                    completeDispatch(0);
+                    // errorDispatch(error);
                 });
             };
             setImmediate(loadIndicators, {});
