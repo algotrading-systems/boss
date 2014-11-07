@@ -26,13 +26,10 @@
 
     <div id="indicatorItemTemplate" data-win-control="WinJS.Binding.Template">
         <div class="indicator-item">
-            <h4 data-win-bind="innerText: symbol"></h4>
-            <div>
-                <span data-win-bind="innerText: direction"></span>
-                <span data-win-bind="innerText: time"></span>
-                <span data-win-bind="innerText: level"></span>
-                Time frame: <span data-win-bind="innerText: time_frame"></span>
-            </div>
+            <div class="indicator-item-col indicator-item-col1" data-win-bind="innerText: symbol"></div>
+            <div class="indicator-item-col indicator-item-col-direction" data-win-bind="innerHTML: directionHTML"></div>
+            <div class="indicator-item-col indicator-item-col3" data-win-bind="innerText: timeFormatted"></div>
+            <div class="indicator-item-col indicator-item-col-level" data-win-bind="innerHTML: levelHTML"></div>
         </div>
     </div>  
 
