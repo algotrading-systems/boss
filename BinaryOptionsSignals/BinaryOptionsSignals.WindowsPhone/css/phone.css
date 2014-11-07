@@ -1,5 +1,6 @@
 ﻿#contenthost {
-	background-color: gray;
+	/* background-color: gray; */
+    background: red;
 }
 
 .fragment header[role=banner] {
@@ -34,8 +35,24 @@
     height: 100%;
 }
 
+.hubpage {
+    background-image: url('/images/MainAppBackground.scale-240.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .hubpage .hub{
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+
 .indicators-list{
     height: 100%;
+}
+
+.win-listview .win-container .win-itembox {
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
     .indicators-list .indicator-item {
@@ -45,12 +62,14 @@
         -ms-grid-rows: 39px;
         text-align: center;
         font-size: 19px;
+        background-color: rgba(0, 0, 0, 0.01);
     }
 
         .indicators-list .indicator-item .indicator-item-col {
             -ms-grid-row: 1;
             vertical-align: middle;
             line-height: 39px;
+            background-color: rgba(0, 0, 0, 0.01);
         }
 
         .indicators-list .indicator-item .indicator-item-col-symbol {
