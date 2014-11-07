@@ -39,20 +39,54 @@
 }
 
     .indicators-list .indicator-item {
-        border: 1px solid white;
+        /*border: 1px solid white;*/
+        display: -ms-grid;
+        -ms-grid-columns: 25% 25% 25% 25%;
+        -ms-grid-rows: 39px;
+        text-align: center;
+        font-size: 19px;
     }
 
         .indicators-list .indicator-item .indicator-item-col {
-            display: inline-block;
-            width: 24%;
+            -ms-grid-row: 1;
+            vertical-align: middle;
+            line-height: 39px;
         }
 
-        .indicators-list .indicator-item .indicator-item-col-direction .direction-up {
-            background: green;
+        .indicators-list .indicator-item .indicator-item-col-symbol {
+            -ms-grid-column: 1;
         }
 
-        .indicators-list .indicator-item .indicator-item-col-direction .direction-down{
-            background: red;
+        .indicators-list .indicator-item .indicator-item-col-direction {
+            -ms-grid-column: 2;
+        }
+
+        .indicators-list .indicator-item .indicator-item-col-time {
+            -ms-grid-column: 3;
+        }
+
+        .indicators-list .indicator-item .indicator-item-col-level {
+            -ms-grid-column: 4;
+        }
+
+        .indicators-list .indicator-item .indicator-item-col-direction div {
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position-x: left;
+            background-position-y: center;
+            padding: 0 0 0 32px;
+            margin: 10px 0 10px 0;
+            height: 19px;
+            line-height: 19px;
+        }
+
+
+        .indicators-list .indicator-item .indicator-item-col-direction div.direction-up {
+            background-image: url('/images/arrows/up.png');
+        }
+
+        .indicators-list .indicator-item .indicator-item-col-direction div.direction-down{
+            background-image: url('/images/arrows/down.png');
         }
 
         .indicators-list .indicator-item .indicator-item-col-level div {
