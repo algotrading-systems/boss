@@ -23,6 +23,16 @@
         <section aria-label="Main content" role="main">
             <!-- Настроим элемент управления Hub, изменив здесь элементы управления HubSection. -->
             <div class="hub" data-win-control="WinJS.UI.Pivot">
+                <div class="section1 section" data-win-control="WinJS.UI.PivotItem" data-win-options="{'header': '1 Hour'}">
+                    <div class="sectioncontrol" id="sectionIndicatorsContenthost" data-win-control="HubApps_SectionControls.Section1Control">
+                        <div class="indicators-list" id="basicTemplateListView" data-win-control="WinJS.UI.ListView" data-win-options="{
+                            selectionMode: 'none',
+                            layout: {type: WinJS.UI.ListLayout},
+                            itemDataSource: Data.indicators3600.dataSource,
+                            itemTemplate: select('#indicatorItemTemplate')}">
+                        </div>
+                    </div>
+                </div>
                 <div class="section1 section" data-win-control="WinJS.UI.PivotItem" data-win-options="{'header': '15 Minutes'}">
                     <div class="sectioncontrol" id="sectionIndicatorsContenthost" data-win-control="HubApps_SectionControls.Section1Control">
                         <div class="indicators-list" id="basicTemplateListView" data-win-control="WinJS.UI.ListView" data-win-options="{
@@ -39,16 +49,6 @@
                             selectionMode: 'none',
                             layout: {type: WinJS.UI.ListLayout},
                             itemDataSource: Data.indicators1800.dataSource,
-                            itemTemplate: select('#indicatorItemTemplate')}">
-                        </div>
-                    </div>
-                </div>
-                <div class="section1 section" data-win-control="WinJS.UI.PivotItem" data-win-options="{'header': '1 Hour'}">
-                    <div class="sectioncontrol" id="sectionIndicatorsContenthost" data-win-control="HubApps_SectionControls.Section1Control">
-                        <div class="indicators-list" id="basicTemplateListView" data-win-control="WinJS.UI.ListView" data-win-options="{
-                            selectionMode: 'none',
-                            layout: {type: WinJS.UI.ListLayout},
-                            itemDataSource: Data.indicators3600.dataSource,
                             itemTemplate: select('#indicatorItemTemplate')}">
                         </div>
                     </div>
