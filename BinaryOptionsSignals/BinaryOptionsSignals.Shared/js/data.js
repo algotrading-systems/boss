@@ -17,8 +17,9 @@
                         if (indicator.time_frame in indicatorsLists) {
                             var ltime = timeFormatter.format(new Date(indicator.time));
                             indicator.timeFormatted = ltime;
-                            indicator.directionText = (indicator.direction > 0) ? 'up' : 'down';
-                            indicator.directionHTML = '<div class="direction-' + indicator.directionText + '">' + indicator.directionText + '</div>';
+                            indicator.directionTechText = (indicator.direction > 0) ? 'up' : 'down';
+                            indicator.directionText = (indicator.direction > 0) ? 'Call' : 'Put';
+                            indicator.directionHTML = '<div class="direction-' + indicator.directionTechText + '">' + indicator.directionText + '</div>';
                             indicator.levelHTML = '<div class="level-' + indicator.level + '"></div>';
                             indicatorsLists[indicator.time_frame].push(indicator);
                         }
