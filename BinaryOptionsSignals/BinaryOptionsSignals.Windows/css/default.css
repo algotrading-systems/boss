@@ -47,3 +47,108 @@
 .indicators-list{
     height: 100%;
 }
+
+.win-listview .win-container .win-itembox {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+    .indicators-list .indicator-item {
+        /*border: 1px solid white;*/
+        display: -ms-grid;
+        -ms-grid-columns: 25% 25% 25% 25%;
+        -ms-grid-rows: 39px;
+        text-align: center;
+        font-size: 19px;
+        background-color: rgba(0, 0, 0, 0.01);
+    }
+
+        .indicators-list .indicator-item .indicator-item-col {
+            -ms-grid-row: 1;
+            vertical-align: middle;
+            line-height: 39px;
+            background-color: rgba(0, 0, 0, 0.01);
+        }
+
+        .indicators-list .indicator-item .indicator-item-col-symbol {
+            -ms-grid-column: 1;
+        }
+
+        .indicators-list .indicator-item .indicator-item-col-direction {
+            -ms-grid-column: 2;
+        }
+
+        .indicators-list .indicator-item .indicator-item-col-time {
+            -ms-grid-column: 3;
+        }
+
+        .indicators-list .indicator-item .indicator-item-col-level {
+            -ms-grid-column: 4;
+        }
+
+        .indicators-list .indicator-item .indicator-item-col-direction div {
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position-x: left;
+            background-position-y: center;
+            padding: 0 0 0 32px;
+            margin: 10px 0 10px 0;
+            height: 19px;
+            line-height: 19px;
+        }
+
+
+        .indicators-list .indicator-item .indicator-item-col-direction div.direction-up {
+            background-image: url('/images/arrows/up.png');
+        }
+
+        .indicators-list .indicator-item .indicator-item-col-direction div.direction-down{
+            background-image: url('/images/arrows/down.png');
+        }
+
+        .indicators-list .indicator-item .indicator-item-col-level div {
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-position-y: center;
+            height: 39px;
+        }
+
+        .indicators-list .indicator-item .indicator-item-col-level .level-1 {
+            background-image: url('/images/levels/level_1.png');
+        }
+
+        .indicators-list .indicator-item .indicator-item-col-level .level-2 {
+            background-image: url('/images/levels/level_2.png');
+        }
+
+        .indicators-list .indicator-item .indicator-item-col-level .level-3 {
+            background-image: url('/images/levels/level_3.png');
+        }
+
+        .indicators-list .indicator-item .indicator-item-col-level .level-4 {
+            background-image: url('/images/levels/level_4.png');
+        }
+
+        .indicators-list .indicator-item .indicator-item-col-level .level-5 {
+            background-image: url('/images/levels/level_5.png');
+        }
+
+        .indicators-list .indicator-item .indicator-item-col-level .level-6 {
+            background-image: url('/images/levels/level_6.png');
+        }
+
+        .indicators-list .indicator-item .indicator-item-col-level .level-7 {
+            background-image: url('/images/levels/level_7.png');
+        }
+
+        .indicators-list .indicator-item .indicator-item-col-level .level-8 {
+            background-image: url('/images/levels/level_8.png');
+        }
+
+        .indicators-list .indicator-item .indicator-item-col-level .level-9 {
+            background-image: url('/images/levels/level_9.png');
+        }
+
+        .indicators-list .indicator-item .indicator-item-col-level .level-10 {
+            background-image: url('/images/levels/level_10.png');
+        }
