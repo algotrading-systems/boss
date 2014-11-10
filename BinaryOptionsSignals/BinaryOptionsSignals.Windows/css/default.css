@@ -1,4 +1,8 @@
-﻿#contenthost {
+﻿.main-background {
+    background-image: url('/images/splashscreen.png');
+}
+
+#contenthost {
     height: 100%;
     width: 100%;
 }
