@@ -70,6 +70,7 @@
     <Content Include="images\levels\level_8.png" />
     <Content Include="images\levels\level_9.png" />
     <Content Include="images\logo.png" />
+    <Content Include="images\MainAppBackground.png" />
     <Content Include="images\smalllogo.png" />
     <Content Include="images\splashscreen.scale-100.png" />
     <Content Include="images\splashscreen.scale-140.png" />
