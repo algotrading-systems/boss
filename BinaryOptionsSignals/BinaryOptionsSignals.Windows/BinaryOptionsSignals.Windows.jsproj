@@ -48,7 +48,7 @@
     <TargetPlatformVersion>8.1</TargetPlatformVersion>
     <RequiredPlatformVersion>8.1</RequiredPlatformVersion>
     <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
-    <DefaultLanguage>ru-RU</DefaultLanguage>
+    <DefaultLanguage>en-us</DefaultLanguage>
     <PackageCertificateKeyFile>BinaryOptionsSignals.Windows_StoreKey.pfx</PackageCertificateKeyFile>
     <PackageCertificateThumbprint>A28A71709E9313A2A3674AFBDC594FD422472746</PackageCertificateThumbprint>
   </PropertyGroup>
