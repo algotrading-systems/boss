@@ -3,7 +3,7 @@
   <Identity Name="46678Reskator.BinaryOptionsSignalsSource" Version="1.1.0.0" Publisher="CN=47385E12-1D61-418B-8151-44188CAEA757" />
   <Properties>
     <DisplayName>Binary Options Signals Source</DisplayName>
-    <PublisherDisplayName>Reskator</PublisherDisplayName>
+    <PublisherDisplayName>AgloTrading.Systems</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
   <Prerequisites>
@@ -19,6 +19,9 @@
         <m2:DefaultTile ShortName="BOSS">
         </m2:DefaultTile>
         <m2:SplashScreen Image="images\SplashScreen.png" BackgroundColor="#000000" />
+        <m2:InitialRotationPreference>
+          <m2:Rotation Preference="landscape" />
+        </m2:InitialRotationPreference>
       </m2:VisualElements>
     </Application>
   </Applications>

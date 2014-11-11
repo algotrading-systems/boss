@@ -4,7 +4,7 @@
   <mp:PhoneIdentity PhoneProductId="01d32165-3621-43d7-8937-a27f90ace470" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Binary Options Signals Source</DisplayName>
-    <PublisherDisplayName>Reskator</PublisherDisplayName>
+    <PublisherDisplayName>AlgoTrading.Systems</PublisherDisplayName>
     <Logo>images\StoreLogo.png</Logo>
   </Properties>
   <Prerequisites>
