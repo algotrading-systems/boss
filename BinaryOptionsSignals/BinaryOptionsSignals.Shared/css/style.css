@@ -3,3 +3,28 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.indicators-list {
+}
+
+    .indicator-item-header {
+        display: -ms-grid;
+        -ms-grid-columns: 25% 25% 25% 25%;
+        text-align: center;
+    }
+
+        .indicator-item-header .indicator-item-header-col-symbol {
+            -ms-grid-column: 1;
+        }
+
+        .indicator-item-header .indicator-item-header-col-direction {
+            -ms-grid-column: 2;
+        }
+
+        .indicator-item-header .indicator-item-header-col-time {
+            -ms-grid-column: 3;
+        }
+
+        .indicator-item-header .indicator-item-header-col-level {
+            -ms-grid-column: 4;
+        }
