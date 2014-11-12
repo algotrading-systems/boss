@@ -20,7 +20,6 @@
                 }
 
                 bossClient.getTable("Indicator").read().done(function (indicators) {
-                    var x = indicators;
                     indicators.forEach(function (indicator) {
                         if (indicator.time_frame in indicatorsLists) {
                             var ltime = timeFormatter.format(new Date(indicator.time));
