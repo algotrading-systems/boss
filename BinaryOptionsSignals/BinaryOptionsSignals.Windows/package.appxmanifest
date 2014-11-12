@@ -15,10 +15,12 @@
   </Resources>
   <Applications>
     <Application Id="App" StartPage="default.html">
-      <m2:VisualElements DisplayName="BinaryOptionsSignals.Windows" Description="BinaryOptionsSignals.Windows" ForegroundText="light" BackgroundColor="#464646" Square150x150Logo="images\Logo.png" Square30x30Logo="images\SmallLogo.png">
-        <m2:DefaultTile ShortName="BOSS">
+      <m2:VisualElements DisplayName="BinaryOptionsSignals.Windows" Description="BinaryOptionsSignals.Windows" ForegroundText="light" BackgroundColor="#000000" Square150x150Logo="images\Logo.png" Square30x30Logo="images\SmallLogo.png" ToastCapable="false">
+        <m2:DefaultTile ShortName="BOSS" Wide310x150Logo="images\Wide310x150Logo.png" Square310x310Logo="images\Square310x310Logo.png" Square70x70Logo="images\Square70x70Logo.png">
           <m2:ShowNameOnTiles>
             <m2:ShowOn Tile="square150x150Logo" />
+            <m2:ShowOn Tile="wide310x150Logo" />
+            <m2:ShowOn Tile="square310x310Logo" />
           </m2:ShowNameOnTiles>
         </m2:DefaultTile>
         <m2:SplashScreen Image="images\SplashScreen.png" BackgroundColor="#000000" />
