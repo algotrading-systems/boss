@@ -50,9 +50,9 @@
 
     function doClickRefresh() {
         WinJS.Utilities.query("#mainProgressBar").removeClass("hidden");
-        setTimeout(function () {
+        Data.startLoadingFromCloud().done(function () {
             WinJS.Utilities.query("#mainProgressBar").addClass("hidden");
-        }, 2000);
+        });
     };
 
 })();
