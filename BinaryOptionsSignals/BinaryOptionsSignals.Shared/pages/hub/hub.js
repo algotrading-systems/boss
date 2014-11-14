@@ -23,8 +23,10 @@
                     hub.onloadingstatechanged = null;
                 }
             }
-
             // TODO: Инициализируйте здесь страницу.
+            document.getElementById("cmdRefresh").addEventListener("click", doClickRefresh, false);
+            var appBar = document.getElementById('appbar').winControl;
+            appBar.show();
         },
 
         //section3HeaderNavigate: util.markSupportedForProcessing(function (args) {
@@ -45,4 +47,9 @@
             // TODO: Отвечайте на изменения в макете.
         },
     });
+
+    function doClickRefresh() {
+        var x = 2;
+    };
+
 })();
