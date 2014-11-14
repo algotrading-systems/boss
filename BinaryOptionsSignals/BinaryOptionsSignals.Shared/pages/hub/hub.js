@@ -49,7 +49,10 @@
     });
 
     function doClickRefresh() {
-        var x = 2;
+        WinJS.Utilities.query("#mainProgressBar").removeClass("hidden");
+        setTimeout(function () {
+            WinJS.Utilities.query("#mainProgressBar").addClass("hidden");
+        }, 2000);
     };
 
 })();

@@ -1,4 +1,8 @@
-﻿.main-background {
+﻿.hidden {
+    display: none;
+}
+
+.main-background {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,3 +32,10 @@
         .indicator-item-header .indicator-item-header-col-level {
             -ms-grid-column: 4;
         }
+
+#mainProgressBar {
+    width: 100%;
+    position: absolute;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.5);
+}
