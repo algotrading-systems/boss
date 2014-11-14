@@ -34,8 +34,8 @@
         }
 
 #mainProgressBar {
+    z-index: 1000;
     width: 100%;
     position: absolute;
-    z-index: 1000;
-    background: rgba(0, 0, 0, 0.5);
+    top: 0;
 }
