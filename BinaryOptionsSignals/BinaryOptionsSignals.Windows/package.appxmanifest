@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:build="http://schemas.microsoft.com/developer/appx/2012/build" IgnorableNamespaces="build">
-  <Identity Name="46678Reskator.BinaryOptionsSignalsSource" Version="1.1.0.0" Publisher="CN=47385E12-1D61-418B-8151-44188CAEA757" />
+  <Identity Name="46678Reskator.BinaryOptionsSignalsSource" Version="1.2.0.0" Publisher="CN=47385E12-1D61-418B-8151-44188CAEA757" />
   <Properties>
     <DisplayName>Binary Options Signals Source</DisplayName>
     <PublisherDisplayName>AgloTrading.Systems</PublisherDisplayName>
