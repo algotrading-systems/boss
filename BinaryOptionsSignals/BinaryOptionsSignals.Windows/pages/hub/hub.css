@@ -9,6 +9,10 @@
     z-index: 1;
 }
 
+.hubpage .hub {
+    height: calc(100% - 50px);
+}
+
 .hubpage .hub .win-hub-surface {
     height: 100%;
 }
