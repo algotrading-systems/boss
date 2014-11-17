@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
-  <Identity Name="46678Reskator.BinaryOptionsSignalsSource" Version="1.2.0.2" Publisher="CN=47385E12-1D61-418B-8151-44188CAEA757" />
+  <Identity Name="46678Reskator.BinaryOptionsSignalsSource" Version="1.2.0.5" Publisher="CN=47385E12-1D61-418B-8151-44188CAEA757" />
   <mp:PhoneIdentity PhoneProductId="01d32165-3621-43d7-8937-a27f90ace470" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Binary Options Signals Source</DisplayName>
@@ -16,7 +16,7 @@
   </Resources>
   <Applications>
     <Application Id="App" StartPage="default.html">
-      <m3:VisualElements DisplayName="Binary Options Signals Source" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png" Description="Приложение предоствляет интерактивный доступ к прогнозам для бинарных опционов. Прогнозы доступны для самых популярных тайм-фреймов (15 min., 30 min., 1 our, 4 hour), что позволяет получать прибыль при любой стратегии торговли." ForegroundText="light" BackgroundColor="transparent">
+      <m3:VisualElements DisplayName="Binary Options Signals Source" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png" Description="Increase your trading profitability on the binary options market using &quot;Binary Options Signals Source&quot;. Signals are available for all major time frames: 1 hour, 15 minutes, 30 minutes, 4 hours. Trade signals for currencies metals stocks indices commodities are provided in real time." ForegroundText="light" BackgroundColor="transparent">
         <m3:DefaultTile Wide310x150Logo="images\Wide310x150Logo.png" Square71x71Logo="images\Square71x71Logo.png">
         </m3:DefaultTile>
         <m3:SplashScreen Image="images\SplashScreen.png" />

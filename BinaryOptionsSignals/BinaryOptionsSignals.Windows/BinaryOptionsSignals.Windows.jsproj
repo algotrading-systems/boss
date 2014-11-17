@@ -48,11 +48,12 @@
     <TargetPlatformVersion>8.1</TargetPlatformVersion>
     <RequiredPlatformVersion>8.1</RequiredPlatformVersion>
     <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
-    <DefaultLanguage>en-us</DefaultLanguage>
+    <DefaultLanguage>ru</DefaultLanguage>
     <PackageCertificateKeyFile>BinaryOptionsSignals.Windows_StoreKey.pfx</PackageCertificateKeyFile>
     <PackageCertificateThumbprint>A28A71709E9313A2A3674AFBDC594FD422472746</PackageCertificateThumbprint>
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
     <AppxBundlePlatforms>neutral</AppxBundlePlatforms>
+    <AppxBundle>Never</AppxBundle>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="package.appxmanifest">
@@ -116,9 +117,6 @@
     <Content Include="packages.config" />
     <Content Include="pages\hub\hub.html" />
     <Content Include="pages\hub\hub.css" />
-    <Content Include="pages\section\section.html" />
-    <Content Include="pages\section\section.js" />
-    <Content Include="pages\section\section.css" />
     <Content Include="services\mobileServices\settings\bos.js">
       <ConnectedServiceReference>bos</ConnectedServiceReference>
     </Content>
