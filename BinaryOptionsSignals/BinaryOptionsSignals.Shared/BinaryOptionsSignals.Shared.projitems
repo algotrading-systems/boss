@@ -19,4 +19,7 @@
     <Content Include="$(MSBuildThisFileDirectory)images\gray.png" />
     <PRIResource Include="$(MSBuildThisFileDirectory)strings\ru-RU\resources.resjson" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)strings\en-US\" />
+  </ItemGroup>
 </Project>
