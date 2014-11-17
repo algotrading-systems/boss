@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:build="http://schemas.microsoft.com/developer/appx/2012/build" IgnorableNamespaces="build">
-  <Identity Name="46678Reskator.BinaryOptionsSignalsSource" Version="1.2.0.9" Publisher="CN=47385E12-1D61-418B-8151-44188CAEA757" />
+  <Identity Name="46678Reskator.BinaryOptionsSignalsSource" Version="1.2.0.11" Publisher="CN=47385E12-1D61-418B-8151-44188CAEA757" />
   <Properties>
     <DisplayName>Binary Options Signals Source</DisplayName>
     <PublisherDisplayName>AlgoTrading.Systems</PublisherDisplayName>
@@ -15,7 +15,7 @@
   </Resources>
   <Applications>
     <Application Id="App" StartPage="default.html">
-      <m2:VisualElements DisplayName="BinaryOptionsSignals.Windows" Description="BinaryOptionsSignals.Windows" ForegroundText="light" BackgroundColor="#000000" Square150x150Logo="images\Logo.png" Square30x30Logo="images\SmallLogo.png" ToastCapable="false">
+      <m2:VisualElements DisplayName="BinaryOptionsSignals.Windows" Description="Increase your trading profitability on the binary options market using &quot;Binary Options Signals Source&quot;. Signals are available for all major time frames: 1 hour, 15 minutes, 30 minutes, 4 hours. Trade signals for currencies metals stocks indices commodities are provided in real time." ForegroundText="light" BackgroundColor="#000000" Square150x150Logo="images\Logo.png" Square30x30Logo="images\SmallLogo.png" ToastCapable="false">
         <m2:DefaultTile ShortName="BOSS" Wide310x150Logo="images\Wide310x150Logo.png" Square310x310Logo="images\Square310x310Logo.png" Square70x70Logo="images\Square70x70Logo.png">
           <m2:ShowNameOnTiles>
             <m2:ShowOn Tile="square150x150Logo" />
