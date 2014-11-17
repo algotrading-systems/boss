@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StoreAssociation xmlns="http://schemas.microsoft.com/appx/2010/storeassociation">
   <Publisher>CN=47385E12-1D61-418B-8151-44188CAEA757</Publisher>
-  <PublisherDisplayName>Reskator</PublisherDisplayName>
+  <PublisherDisplayName>AlgoTrading.Systems</PublisherDisplayName>
   <GeneratePackageHash>http://www.w3.org/2001/04/xmlenc#sha256</GeneratePackageHash>
   <SupportedLocales>
     <Language Code="af" InMinimumRequirementSet="false" />
