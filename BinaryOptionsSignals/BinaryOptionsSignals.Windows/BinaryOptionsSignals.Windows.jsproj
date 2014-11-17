@@ -51,6 +51,8 @@
     <DefaultLanguage>en-us</DefaultLanguage>
     <PackageCertificateKeyFile>BinaryOptionsSignals.Windows_StoreKey.pfx</PackageCertificateKeyFile>
     <PackageCertificateThumbprint>A28A71709E9313A2A3674AFBDC594FD422472746</PackageCertificateThumbprint>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxBundlePlatforms>neutral</AppxBundlePlatforms>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="package.appxmanifest">
