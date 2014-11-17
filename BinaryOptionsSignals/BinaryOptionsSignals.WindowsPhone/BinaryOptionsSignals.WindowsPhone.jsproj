@@ -74,6 +74,8 @@
     <Content Include="images\Square44x44Logo.scale-240.png" />
     <Content Include="images\Square71x71Logo.scale-100.png" />
     <Content Include="images\Square71x71Logo.scale-140.png" />
+    <Content Include="images\StoreLogo.scale-100.png" />
+    <Content Include="images\StoreLogo.scale-140.png" />
     <Content Include="images\Wide310x150Logo.scale-100.png" />
     <Content Include="images\Wide310x150Logo.scale-140.png" />
     <Content Include="images\Wide310x150Logo.scale-240.png" />
