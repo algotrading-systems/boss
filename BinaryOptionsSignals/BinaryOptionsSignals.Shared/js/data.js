@@ -19,7 +19,8 @@
                     });
                 }
 
-                bossClient.getTable("Indicator").read().done(function (indicators) {
+                bossClient.getTable("Indicator").take(500).read().done(function (indicators) {
+
                     indicators.forEach(function (indicator) {
                         if (indicator.time_frame in indicatorsLists) {
                             var ltime = timeFormatter.format(new Date(indicator.time));
