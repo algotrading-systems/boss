@@ -22,7 +22,6 @@
     <script src="/js/default.js"></script>
 </head>
 <body>
-
     <div id="indicatorItemTemplate" data-win-control="WinJS.Binding.Template">
         <div class="indicator-item">
             <div class="indicator-item-col indicator-item-col-symbol" data-win-bind="innerText: symbol"></div>
@@ -31,11 +30,6 @@
             <div class="indicator-item-col indicator-item-col-level" data-win-bind="innerHTML: levelHTML"></div>
         </div>
     </div>  
-
     <div id="contenthost" data-win-control="Application.PageControlNavigator" data-win-options="{home: '/pages/hub/hub.html'}"></div>
-    <div id="appbar" data-win-control="WinJS.UI.AppBar" data-win-options="{sticky: true}" style="border-radius: 0px;">
-        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdRefresh', label:'Refresh', icon:'refresh', section:'global'}" type="button"></button>
-        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdSettings', label:'Settings', icon:'settings', section:'global'}" type="button"></button>
-    </div>
 </body>
 </html>
