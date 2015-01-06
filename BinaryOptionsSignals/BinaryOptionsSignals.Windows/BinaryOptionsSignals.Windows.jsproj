@@ -117,6 +117,7 @@
     <Content Include="packages.config" />
     <Content Include="pages\hub\hub.html" />
     <Content Include="pages\hub\hub.css" />
+    <Content Include="pages\settings.html" />
     <Content Include="services\mobileServices\settings\bos.js">
       <ConnectedServiceReference>bos</ConnectedServiceReference>
     </Content>

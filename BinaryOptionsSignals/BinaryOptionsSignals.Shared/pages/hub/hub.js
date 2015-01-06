@@ -1,7 +1,6 @@
 ﻿(function () {
     "use strict";
 
-    var nav = WinJS.Navigation;
     var session = WinJS.Application.sessionState;
     var util = WinJS.Utilities;
 
@@ -25,8 +24,9 @@
             }
             // TODO: Инициализируйте здесь страницу.
             document.getElementById("cmdRefresh").addEventListener("click", doClickRefresh, false);
-            var appBar = document.getElementById('appbar').winControl;
-            appBar.show();
+            document.getElementById("cmdSettings").addEventListener("click", doClickSettings, false);
+            // 
+            document.getElementById('appbar').winControl.show();
         },
 
         //section3HeaderNavigate: util.markSupportedForProcessing(function (args) {
@@ -54,5 +54,9 @@
             WinJS.Utilities.query("#mainProgressBar").addClass("hidden");
         });
     };
+
+    function doClickSettings() {
+        WinJS.Navigation.navigate("/pages/settings.html", { title: "Settings" }).done(function () {}, function (error) {});
+    }
 
 })();
