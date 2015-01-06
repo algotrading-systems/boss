@@ -22,22 +22,6 @@
             <progress id="mainProgressBar" class="hidden"></progress>
             <!-- Настроим элемент управления Hub, изменив здесь элементы управления HubSection. -->
             <div class="hub main-background" data-win-control="WinJS.UI.Hub">
-                <div class="section section1" data-win-control="WinJS.UI.HubSection" data-win-options="{isHeaderStatic: true, 'header': '4Hours'}" data-win-res="{}">
-                    <div id="sectionIndicatorsContenthost" data-win-control="HubApps_SectionControls.SectionIndicatorsControl">
-                        <div class="indicator-item-header">
-                            <div class="indicator-item-header-col indicator-item-header-col-symbol"></div>
-                            <div class="indicator-item-header-col indicator-item-header-col-direction">Option type</div>
-                            <div class="indicator-item-header-col indicator-item-header-col-time">Time</div>
-                            <div class="indicator-item-header-col indicator-item-header-col-level">Strength</div>
-                        </div>
-                        <div class="indicators-list" id="basicTemplateListView" data-win-control="WinJS.UI.ListView" data-win-options="{
-                             selectionMode: 'none',
-                             layout: {type: WinJS.UI.ListLayout},
-                             itemDataSource : Data.indicators14400.dataSource,
-                             itemTemplate: select('#indicatorItemTemplate')}">
-                        </div>
-                    </div>
-                </div>
                 <div class="section section1" data-win-control="WinJS.UI.HubSection" data-win-options="{isHeaderStatic: true, 'header': '1 Hour'}" data-win-res="{}">
                     <div id="sectionIndicatorsContenthost" data-win-control="HubApps_SectionControls.SectionIndicatorsControl">
                         <div class="indicator-item-header">
@@ -82,6 +66,22 @@
                              selectionMode: 'none',
                              layout: {type: WinJS.UI.ListLayout},
                              itemDataSource : Data.indicators1800.dataSource,
+                             itemTemplate: select('#indicatorItemTemplate')}">
+                        </div>
+                    </div>
+                </div>
+                <div class="section section1" data-win-control="WinJS.UI.HubSection" data-win-options="{isHeaderStatic: true, 'header': '4 Hours'}" data-win-res="{}">
+                    <div id="sectionIndicatorsContenthost" data-win-control="HubApps_SectionControls.SectionIndicatorsControl">
+                        <div class="indicator-item-header">
+                            <div class="indicator-item-header-col indicator-item-header-col-symbol"></div>
+                            <div class="indicator-item-header-col indicator-item-header-col-direction">Option type</div>
+                            <div class="indicator-item-header-col indicator-item-header-col-time">Time</div>
+                            <div class="indicator-item-header-col indicator-item-header-col-level">Strength</div>
+                        </div>
+                        <div class="indicators-list" id="basicTemplateListView" data-win-control="WinJS.UI.ListView" data-win-options="{
+                             selectionMode: 'none',
+                             layout: {type: WinJS.UI.ListLayout},
+                             itemDataSource : Data.indicators14400.dataSource,
                              itemTemplate: select('#indicatorItemTemplate')}">
                         </div>
                     </div>
