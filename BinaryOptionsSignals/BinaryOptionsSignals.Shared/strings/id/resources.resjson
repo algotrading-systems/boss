@@ -1,0 +1,15 @@
+﻿// Сведения о локализации приложений Windows см. по адресу: http://go.microsoft.com/fwlink/?LinkId=212836
+
+{
+    "Source of signals for Binary Options": "Sumber sinyal untuk Binary Options",
+	"1 Hour": "1 Jam",
+	"15 Minutes": "15 Menit",
+	"30 Minutes": "30 Menit",
+	"4 Hours": "4 Jam",
+	"Symbol": "SIMBOL",
+	"Time": "WAKTU",
+	"Option type": "JENIS OPSI",
+	"Reliability": "KEANDALAN",
+	"Settings": "Pengaturan",
+	"Refresh": "Menyegarkan"
+}
