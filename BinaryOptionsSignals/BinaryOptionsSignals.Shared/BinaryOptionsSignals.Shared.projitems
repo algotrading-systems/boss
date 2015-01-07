@@ -18,6 +18,7 @@
     <Content Include="$(MSBuildThisFileDirectory)images\gray.png" />
     <PRIResource Include="$(MSBuildThisFileDirectory)strings\ar\resources.resjson" />
     <PRIResource Include="$(MSBuildThisFileDirectory)strings\cz\resources.resjson" />
+    <PRIResource Include="$(MSBuildThisFileDirectory)strings\da\resources.resjson" />
     <PRIResource Include="$(MSBuildThisFileDirectory)strings\en-US\resources.resjson" />
     <PRIResource Include="$(MSBuildThisFileDirectory)strings\ru\resources.resjson" />
   </ItemGroup>
