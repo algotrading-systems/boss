@@ -1,0 +1,15 @@
+﻿// Сведения о локализации приложений Windows см. по адресу: http://go.microsoft.com/fwlink/?LinkId=212836
+
+{
+	"Source of signals for Binary Options": "Källa för signaler för binära optioner",
+	"1 Hour": "1 Timme",
+	"15 Minutes": "15 Minuter",
+	"30 Minutes": "30 Minuter",
+	"4 Hours": "4 Timmar",
+	"Symbol": "Symbol",
+	"Time": "Tid",
+	"Option type": "Option typ",
+	"Reliability": "Vederhäftighet",
+	"Settings": "Inställningar",
+	"Refresh": "Uppdatera"
+}
