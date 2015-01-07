@@ -1,0 +1,15 @@
+﻿// Сведения о локализации приложений Windows см. по адресу: http://go.microsoft.com/fwlink/?LinkId=212836
+
+{
+    "Source of signals for Binary Options": "İkili Opsiyonlar için sinyallerin kaynağı",
+	"1 Hour": "1 Saat",
+	"15 Minutes": "15 Dakika",
+	"30 Minutes": "30 Dakika",
+	"4 Hours": "4 Saat",
+	"Symbol": "SEMBOL",
+	"Time": "ZAMAN",
+	"Option type": "OPSİYON TÜRÜ",
+	"Reliability": "GÜVENİLİRLİK",
+	"Settings": "Ayarlar",
+	"Refresh": "Yenile"
+}

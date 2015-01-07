@@ -36,5 +36,9 @@
     <PRIResource Include="$(MSBuildThisFileDirectory)strings\pt\resources.resjson" />
     <PRIResource Include="$(MSBuildThisFileDirectory)strings\ro\resources.resjson" />
     <PRIResource Include="$(MSBuildThisFileDirectory)strings\ru\resources.resjson" />
+    <PRIResource Include="$(MSBuildThisFileDirectory)strings\sv\resources.resjson" />
+    <PRIResource Include="$(MSBuildThisFileDirectory)strings\tr\resources.resjson" />
+    <PRIResource Include="$(MSBuildThisFileDirectory)strings\zh-CN\resources.resjson" />
+    <PRIResource Include="$(MSBuildThisFileDirectory)strings\zh-TW\resources.resjson" />
   </ItemGroup>
 </Project>

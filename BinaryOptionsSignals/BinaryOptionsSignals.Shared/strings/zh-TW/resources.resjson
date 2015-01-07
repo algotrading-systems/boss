@@ -1,0 +1,15 @@
+﻿// Сведения о локализации приложений Windows см. по адресу: http://go.microsoft.com/fwlink/?LinkId=212836
+
+{
+    "Source of signals for Binary Options": "對二元期權的信號源",
+	"1 Hour": "1小時",
+	"15 Minutes": "15分鐘",
+	"30 Minutes": "30分鐘",
+	"4 Hours": "4小時",
+	"Symbol": "符号",
+	"Time": "时间",
+	"Option type": "选项类型",
+	"Reliability": "可靠性",
+	"Settings": "設置",
+	"Refresh": "刷新"
+}
