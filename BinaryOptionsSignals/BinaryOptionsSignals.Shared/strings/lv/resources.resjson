@@ -1,0 +1,15 @@
+﻿// Сведения о локализации приложений Windows см. по адресу: http://go.microsoft.com/fwlink/?LinkId=212836
+
+{
+    "Source of signals for Binary Options": "Avots signālu Binary Options",
+	"1 Hour": "1 Stunda",
+	"15 Minutes": "15 minūtes",
+	"30 Minutes": "30 minūtes",
+	"4 Hours": "4 Stundas",
+	"Symbol": "SIMBOLS",
+	"Time": "LAIKS",
+	"Option type": "OPCIJAS VEIDS",
+	"Reliability": "TICAMĪBA",
+	"Settings": "Settings",
+	"Refresh": "Atsvaidzināt"
+}
