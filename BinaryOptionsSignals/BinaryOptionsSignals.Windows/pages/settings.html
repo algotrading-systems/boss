@@ -12,27 +12,23 @@
             <button data-win-control="WinJS.UI.BackButton" id="settingsPageBackButton"></button>
             <h1 class="titlearea win-type-ellipsis"><span class="pagetitle"></span></h1>
         </header>
-        <section aria-label="Main content" role="main">
-
-        </section>
-    </div>
-    <!--
-    <div class="fragment section1page">
-        <section aria-label="Main content" role="main">
-            <div class="top-image-row">
-                <img src="/images/gray.png" />
-            </div>
-            <div class="sub-image-row">
-                <img src="/images/gray.png" />
-                <img src="/images/gray.png" />
-                <img src="/images/gray.png" />
-            </div>
-            <div class="subtext label-medium" data-win-res="{ textContent: 'DescriptionText' }"></div>
-            <div class="label-mediummid">
-                <span data-win-res="{ textContent: 'Section4Description' }"></span>
+        <section aria-label="Settings" role="main">
+            <div class="page-content settings-background">
+                <div class="win-settings-section">
+                    <h4>Language</h4>
+                    <select id="languageSelector" aria-label="Language select control">
+                        <option value="en">English</option>
+                        <option value="en-US">English (United States)</option>
+                        <option value="en-GB">English (Great Britain)</option>
+                        <option value="ru">Русский</option>
+                        <option value="cz">Čeština</option>
+                    </select>
+                </div>
+                <div class="page-toolbar">
+                    <button id="cmdSettingsSave">Save</button>
+                </div>
             </div>
         </section>
     </div>
-    -->
 </body>
 </html>

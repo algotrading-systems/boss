@@ -7,6 +7,21 @@
     width: 100%;
 }
 
+.page-content {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+    .page-content h2 {
+        margin-bottom: 20px;
+    }
+
+    .page-content .page-toolbar {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
 .fragment {
     /* Определить таблицу со строками для баннера и основной части */
     -ms-grid-columns: 1fr;

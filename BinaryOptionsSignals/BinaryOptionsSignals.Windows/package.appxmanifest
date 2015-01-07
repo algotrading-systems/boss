@@ -35,6 +35,6 @@
     <Capability Name="internetClient" />
   </Capabilities>
   <build:Metadata>
-    <build:Item Name="Blend" Version="12.0.50716.0" />
+    <build:Item Name="Blend" Version="12.0.51020.0" />
   </build:Metadata>
 </Package>

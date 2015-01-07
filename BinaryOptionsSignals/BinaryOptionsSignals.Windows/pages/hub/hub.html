@@ -14,21 +14,23 @@
         <header aria-label="Header content" role="banner">
             <button class="backbutton" data-win-control="WinJS.UI.BackButton"></button>
             <h1 class="titlearea win-type-ellipsis">
-                <span class="pagetitle">Binary Options Signals</span>
+                <span data-win-res="{textContent: 'Source of signals for Binary Options'}" class="pagetitle">Binary Options Signals</span>
             </h1>
         </header>
 
         <section aria-label="Main content" role="main">
             <progress id="mainProgressBar" class="hidden"></progress>
+            <!--<h2>x:<span data-win-res="{textContent: 'greeting'}"></span></h2>-->
+
             <!-- Настроим элемент управления Hub, изменив здесь элементы управления HubSection. -->
             <div class="hub main-background" data-win-control="WinJS.UI.Hub">
-                <div class="section section1" data-win-control="WinJS.UI.HubSection" data-win-options="{isHeaderStatic: true, 'header': '1 Hour'}" data-win-res="{}">
+                <div class="section section1" data-win-control="WinJS.UI.HubSection" data-win-options="{isHeaderStatic: true}" data-win-res="{winControl: {header: '1 Hour'}}">
                     <div id="sectionIndicatorsContenthost" data-win-control="HubApps_SectionControls.SectionIndicatorsControl">
                         <div class="indicator-item-header">
-                            <div class="indicator-item-header-col indicator-item-header-col-symbol">Ticker</div>
-                            <div class="indicator-item-header-col indicator-item-header-col-direction">Option type</div>
-                            <div class="indicator-item-header-col indicator-item-header-col-time">Time</div>
-                            <div class="indicator-item-header-col indicator-item-header-col-level">Strength</div>
+                            <div class="indicator-item-header-col indicator-item-header-col-symbol" data-win-res="{textContent: 'Symbol'}">Symbol</div>
+                            <div class="indicator-item-header-col indicator-item-header-col-direction" data-win-res="{textContent: 'Option type'}">Option type</div>
+                            <div class="indicator-item-header-col indicator-item-header-col-time" data-win-res="{textContent: 'Time'}">Time</div>
+                            <div class="indicator-item-header-col indicator-item-header-col-level" data-win-res="{textContent: 'Reliability'}">Reliability</div>
                         </div>
                         <div class="indicators-list" id="basicTemplateListView" data-win-control="WinJS.UI.ListView" data-win-options="{
                              selectionMode: 'none',
@@ -38,13 +40,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="section section1" data-win-control="WinJS.UI.HubSection" data-win-options="{isHeaderStatic: true, 'header': '15 Minutes'}" data-win-res="{}">
+                <div class="section section1" data-win-control="WinJS.UI.HubSection" data-win-options="{isHeaderStatic: true}" data-win-res="{winControl: {'header': '15 Minutes'}}">
                     <div id="sectionIndicatorsContenthost" data-win-control="HubApps_SectionControls.SectionIndicatorsControl">
                         <div class="indicator-item-header">
-                            <div class="indicator-item-header-col indicator-item-header-col-symbol">Ticker</div>
-                            <div class="indicator-item-header-col indicator-item-header-col-direction">Option type</div>
-                            <div class="indicator-item-header-col indicator-item-header-col-time">Time</div>
-                            <div class="indicator-item-header-col indicator-item-header-col-level">Strength</div>
+                            <div class="indicator-item-header-col indicator-item-header-col-symbol" data-win-res="{textContent: 'Symbol'}">Symbol</div>
+                            <div class="indicator-item-header-col indicator-item-header-col-direction" data-win-res="{textContent: 'Option type'}">Option type</div>
+                            <div class="indicator-item-header-col indicator-item-header-col-time" data-win-res="{textContent: 'Time'}">Time</div>
+                            <div class="indicator-item-header-col indicator-item-header-col-level" data-win-res="{textContent: 'Reliability'}">Reliability</div>
                         </div>
                         <div class="indicators-list" id="basicTemplateListView" data-win-control="WinJS.UI.ListView" data-win-options="{
                              selectionMode: 'none',
@@ -54,13 +56,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="section section1" data-win-control="WinJS.UI.HubSection" data-win-options="{isHeaderStatic: true, 'header': '30 Minutes'}" data-win-res="{}">
+                <div class="section section1" data-win-control="WinJS.UI.HubSection" data-win-options="{isHeaderStatic: true}" data-win-res="{winControl: {'header': '30 Minutes'}}">
                     <div id="sectionIndicatorsContenthost" data-win-control="HubApps_SectionControls.SectionIndicatorsControl">
                         <div class="indicator-item-header">
-                            <div class="indicator-item-header-col indicator-item-header-col-symbol">Ticker</div>
-                            <div class="indicator-item-header-col indicator-item-header-col-direction">Option type</div>
-                            <div class="indicator-item-header-col indicator-item-header-col-time">Time</div>
-                            <div class="indicator-item-header-col indicator-item-header-col-level">Strength</div>
+                            <div class="indicator-item-header-col indicator-item-header-col-symbol" data-win-res="{textContent: 'Symbol'}">Symbol</div>
+                            <div class="indicator-item-header-col indicator-item-header-col-direction" data-win-res="{textContent: 'Option type'}">Option type</div>
+                            <div class="indicator-item-header-col indicator-item-header-col-time" data-win-res="{textContent: 'Time'}">Time</div>
+                            <div class="indicator-item-header-col indicator-item-header-col-level" data-win-res="{textContent: 'Reliability'}">Reliability</div>
                         </div>
                         <div class="indicators-list" id="basicTemplateListView" data-win-control="WinJS.UI.ListView" data-win-options="{
                              selectionMode: 'none',
@@ -70,13 +72,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="section section1" data-win-control="WinJS.UI.HubSection" data-win-options="{isHeaderStatic: true, 'header': '4 Hours'}" data-win-res="{}">
+                <div class="section section1" data-win-control="WinJS.UI.HubSection" data-win-options="{isHeaderStatic: true}" data-win-res="{winControl: {'header': '4 Hours'}}">
                     <div id="sectionIndicatorsContenthost" data-win-control="HubApps_SectionControls.SectionIndicatorsControl">
                         <div class="indicator-item-header">
-                            <div class="indicator-item-header-col indicator-item-header-col-symbol"></div>
-                            <div class="indicator-item-header-col indicator-item-header-col-direction">Option type</div>
-                            <div class="indicator-item-header-col indicator-item-header-col-time">Time</div>
-                            <div class="indicator-item-header-col indicator-item-header-col-level">Strength</div>
+                            <div class="indicator-item-header-col indicator-item-header-col-symbol" data-win-res="{textContent: 'Symbol'}">Symbol</div>
+                            <div class="indicator-item-header-col indicator-item-header-col-direction" data-win-res="{textContent: 'Option type'}">Option type</div>
+                            <div class="indicator-item-header-col indicator-item-header-col-time" data-win-res="{textContent: 'Time'}">Time</div>
+                            <div class="indicator-item-header-col indicator-item-header-col-level" data-win-res="{textContent: 'Reliability'}">Reliability</div>
                         </div>
                         <div class="indicators-list" id="basicTemplateListView" data-win-control="WinJS.UI.ListView" data-win-options="{
                              selectionMode: 'none',
@@ -90,8 +92,8 @@
         </section>
     </div>
     <div id="appbar" data-win-control="WinJS.UI.AppBar" data-win-options="{sticky: true}" style="border-radius: 0px;">
-        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdRefresh', label:'Refresh', icon:'refresh', section:'global'}" type="button"></button>
-        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdSettings', label:'Settings', icon:'settings', section:'global'}" type="button"></button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdRefresh', icon:'refresh', section:'global'}" data-win-res="{winControl: {label:'Refresh'}}" type="button"></button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdSettings', icon:'settings', section:'global'}" data-win-res="{winControl: {label:'Settings'}}" type="button"></button>
     </div>
 </body>
 </html>
