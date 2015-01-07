@@ -1,0 +1,15 @@
+﻿// Сведения о локализации приложений Windows см. по адресу: http://go.microsoft.com/fwlink/?LinkId=212836
+
+{
+    "Source of signals for Binary Options": "이진 옵션에 대한 신호 소스",
+	"1 Hour": "1 시간",
+	"15 Minutes": "15 분",
+	"30 Minutes": "30 분",
+	"4 Hours": "4 시간",
+	"Symbol": "심볼",
+	"Time": "시간",
+	"Option type": "옵션 종류",
+	"Reliability": "신뢰도",
+	"Settings": "설정",
+	"Refresh": "새로 고침"
+}
