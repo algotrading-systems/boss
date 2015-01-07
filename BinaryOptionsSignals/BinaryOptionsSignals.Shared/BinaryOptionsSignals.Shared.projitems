@@ -16,9 +16,8 @@
     <Content Include="$(MSBuildThisFileDirectory)pages\item\item.html" />
     <Content Include="$(MSBuildThisFileDirectory)pages\item\item.js" />
     <Content Include="$(MSBuildThisFileDirectory)images\gray.png" />
-    <PRIResource Include="$(MSBuildThisFileDirectory)strings\ru-RU\resources.resjson" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)strings\en-US\" />
+    <PRIResource Include="$(MSBuildThisFileDirectory)strings\cz\resources.resjson" />
+    <PRIResource Include="$(MSBuildThisFileDirectory)strings\en-US\resources.resjson" />
+    <PRIResource Include="$(MSBuildThisFileDirectory)strings\ru\resources.resjson" />
   </ItemGroup>
 </Project>

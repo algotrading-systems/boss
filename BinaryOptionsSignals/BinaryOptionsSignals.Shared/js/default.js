@@ -65,5 +65,25 @@
         }
     }
 
+    app.getCurrentLanguage = function () {
+        var applicationData = Windows.Storage.ApplicationData.current;
+        var localSettings = applicationData.localSettings;
+        var language = localSettings.values["language"];
+        return language;
+    }
+
+    app.setCurrentLanguage = function (language) {
+        var applicationData = Windows.Storage.ApplicationData.current;
+        var localSettings = applicationData.localSettings;
+        localSettings.values["language"] = language;
+    }
+
+    app.setLanguageFromSettings = function () {
+        var language = WinJS.Application.getCurrentLanguage();
+        var resourceNS = Windows.ApplicationModel.Resources.Core;
+        var resourceMap = resourceNS.ResourceManager.current.mainResourceMap.getSubtree('Resources');
+        resourceNS.ResourceManager.current.defaultContext.languages = new Array(language);
+    }
+
     app.start();
 })();

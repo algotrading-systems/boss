@@ -1,18 +1,22 @@
 ﻿(function () {
     "use strict";
 
-    var session = WinJS.Application.sessionState;
     var util = WinJS.Utilities;
 
     WinJS.UI.Pages.define("/pages/hub/hub.html", {
 
         processed: function (element) {
+            WinJS.Application.setLanguageFromSettings();
             return WinJS.Resources.processAll(element);
         },
 
         // Эта функция вызывается всякий раз, когда пользователь переходит на данную страницу. Она
         // заполняет элементы страницы данными приложения.
         ready: function (element, options) {
+
+            // Clear navigation history
+            WinJS.Navigation.history.backStack.length = 0;
+
             var hub = element.querySelector(".hub").winControl;
             hub.onheaderinvoked = function (args) {
                 args.detail.section.onheaderinvoked(args);
@@ -23,6 +27,8 @@
                 }
             }
             // TODO: Инициализируйте здесь страницу.
+            WinJS.Application.setLanguageFromSettings();
+            WinJS.Resources.processAll();
             document.getElementById("cmdRefresh").addEventListener("click", doClickRefresh, false);
             document.getElementById("cmdSettings").addEventListener("click", doClickSettings, false);
             // 
@@ -56,7 +62,7 @@
     };
 
     function doClickSettings() {
-        WinJS.Navigation.navigate("/pages/settings.html", { title: "Settings" }).done(function () {}, function (error) {});
+        WinJS.Navigation.navigate("/pages/settings.html", { title: "Settings" });
     }
 
 })();

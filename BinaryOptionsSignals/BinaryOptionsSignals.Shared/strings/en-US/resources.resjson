@@ -1,4 +1,6 @@
 ﻿// Сведения о локализации приложения Windows см. в разделе http://go.microsoft.com/fwlink/?LinkId=212836
 
 {
+	"Source of signals for Binary Options": "Binary Options Signals Source",
+	"Settings": "Settings"
 }
