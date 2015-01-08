@@ -62,7 +62,7 @@
     };
 
     function doClickSettings() {
-        WinJS.Navigation.navigate("/pages/settings.html", { title: "Settings" });
+        WinJS.Navigation.navigate("/pages/settings.html", {});
     }
 
 })();

@@ -16,7 +16,6 @@
 
         // Эта функция вызывается каждый раз, когда пользователь переходит на данную страницу.
         ready: function (element, options) {
-            element.querySelector("header[role=banner] .pagetitle").textContent = options.title;
             document.getElementById("cmdSettingsSave").addEventListener("click", cmdSettingsSave, false);
             document.getElementById("languageSelector").value = WinJS.Application.getCurrentLanguage();
         },
