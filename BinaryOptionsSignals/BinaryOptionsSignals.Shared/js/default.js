@@ -69,6 +69,9 @@
         var applicationData = Windows.Storage.ApplicationData.current;
         var localSettings = applicationData.localSettings;
         var language = localSettings.values["language"];
+        if (!language) {
+            language = Windows.System.UserProfile.GlobalizationPreferences.languages[0];
+        }
         return language;
     }
 

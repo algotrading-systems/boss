@@ -90,11 +90,11 @@
     <Content Include="packages.config" />
     <Content Include="pages\hub\hubPhone.css" />
     <Content Include="pages\hub\hub.html" />
-    <Content Include="pages\hub\section3Page.html" />
     <Content Include="default.html" />
     <Content Include="css\ui-themed.css" />
     <Content Include="css\ui-themed.theme-dark.css" />
     <Content Include="css\ui-themed.theme-light.css" />
+    <Content Include="pages\settings.html" />
     <Content Include="services\mobileServices\settings\boss.js">
       <ConnectedServiceReference>boss</ConnectedServiceReference>
     </Content>
