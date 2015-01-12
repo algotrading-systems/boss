@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
-  <Identity Name="46678Reskator.BinaryOptionsSignalsSource" Version="1.2.0.6" Publisher="CN=47385E12-1D61-418B-8151-44188CAEA757" />
+  <Identity Name="46678Reskator.BinaryOptionsSignalsSource" Version="1.4.0.7" Publisher="CN=47385E12-1D61-418B-8151-44188CAEA757" />
   <mp:PhoneIdentity PhoneProductId="01d32165-3621-43d7-8937-a27f90ace470" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Binary Options Signals Source</DisplayName>
