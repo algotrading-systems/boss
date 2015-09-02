@@ -21,7 +21,12 @@
         <section aria-label="Main content" role="main">
             <progress id="mainProgressBar" class="hidden"></progress>
             <!--<h2>x:<span data-win-res="{textContent: 'greeting'}"></span></h2>-->
-
+            <div class="top-panel">
+                <div class="time-zone-label label">Used timezone</div>
+                <div class="time-zone-value value" data-win-bind="{textContent: timeZoneValue}">Moscow/Russia</div>
+                <div class="last-refresh-label label">Last refresh time</div>
+                <div class="last-refresh-value value">20:21:55</div>
+            </div>
             <!-- Настроим элемент управления Hub, изменив здесь элементы управления HubSection. -->
             <div class="hub main-background" data-win-control="WinJS.UI.Hub">
                 <div class="section section1" data-win-control="WinJS.UI.HubSection" data-win-options="{isHeaderStatic: true}" data-win-res="{winControl: {header: '1 Hour'}}">
