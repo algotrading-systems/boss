@@ -33,6 +33,10 @@
             document.getElementById("cmdSettings").addEventListener("click", doClickSettings, false);
             // 
             document.getElementById('appbar').winControl.show();
+
+            if (options && options.refresh) {
+                doClickRefresh();
+            }
         },
 
         //section3HeaderNavigate: util.markSupportedForProcessing(function (args) {

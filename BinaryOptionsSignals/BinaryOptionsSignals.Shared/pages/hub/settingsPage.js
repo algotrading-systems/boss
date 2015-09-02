@@ -19,7 +19,6 @@
             document.getElementById("cmdSettingsSave").addEventListener("click", cmdSettingsSave, false);
             document.getElementById("languageSelector").value = WinJS.Application.getCurrentLanguage();
             document.getElementById("useLocalTimeCheckbox").checked = WinJS.Application.getUseLocalTime();
-            document.getElementById("useLocalTimeCheckbox").checked;
         },
 
         unload: function () {
@@ -38,6 +37,6 @@
         var useLocalTime = document.getElementById("useLocalTimeCheckbox").checked;
         WinJS.Application.setCurrentLanguage(language);
         WinJS.Application.setUseLocalTime(useLocalTime);
-        WinJS.Navigation.navigate("/pages/hub/hub.html", {});
+        WinJS.Navigation.navigate("/pages/hub/hub.html", {refresh: true});
     }
 })();
