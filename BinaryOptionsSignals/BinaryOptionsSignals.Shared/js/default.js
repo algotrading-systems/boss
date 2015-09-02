@@ -88,5 +88,21 @@
         resourceNS.ResourceManager.current.defaultContext.languages = new Array(language);
     }
 
+    app.getUseLocalTime = function () {
+        var applicationData = Windows.Storage.ApplicationData.current;
+        var localSettings = applicationData.localSettings;
+        if (('useLocalTime' in localSettings.values)) {
+            return localSettings.values["useLocalTime"];
+        }
+        return true;
+        
+    }
+
+    app.setUseLocalTime = function(useLocalTime){
+        var applicationData = Windows.Storage.ApplicationData.current;
+        var localSettings = applicationData.localSettings;
+        localSettings.values["useLocalTime"] = useLocalTime;
+    }
+
     app.start();
 })();
