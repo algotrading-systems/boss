@@ -22,6 +22,13 @@
                 }
 
                 bossClient.getTable("Indicator").take(500).read().done(function (indicators) {
+
+                    // Clear already loaded indicators
+                    for (var timeFrame in indicatorsLists) {
+                        var list = indicatorsLists[timeFrame];
+                        list.splice(0, list.length);
+                    }
+
                     indicators.forEach(function (indicator) {
                         if (indicator.time_frame in indicatorsLists) {
                             var ltime = timeFormatter.format(new Date(indicator.time));
