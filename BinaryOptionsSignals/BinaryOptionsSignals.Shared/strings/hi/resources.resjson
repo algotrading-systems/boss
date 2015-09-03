@@ -11,5 +11,10 @@
 	"Option type": "ऑप्शन टाइप",
 	"Reliability": "विश्वसनीयता",
 	"Settings": "सेटिंग्स",
-	"Refresh": "ताज़ा करना"
+	"Refresh": "ताज़ा करना",
+	"Time settings": "समय सेटिंग्स",
+	"Use local time": "स्थानीय समय का उपयोग करें",
+	"Use local time for signals instead GMT": "जीएमटी बजाय संकेतों के लिए स्थानीय समय का उपयोग करें",
+	"Used timezone": "वर्तमान समय क्षेत्र",
+	"Updated at": "पर अपडेट"
 }

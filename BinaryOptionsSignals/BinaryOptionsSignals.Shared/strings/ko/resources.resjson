@@ -11,5 +11,10 @@
 	"Option type": "옵션 종류",
 	"Reliability": "신뢰도",
 	"Settings": "설정",
-	"Refresh": "새로 고침"
+	"Refresh": "새로 고침",
+	"Time settings": "시간 설정",
+	"Use local time": "현지 시간 사용",
+	"Use local time for signals instead GMT": "GMT 대신 신호 현지 시간 사용",
+	"Used timezone": "현재 시간대",
+	"Updated at": "갱신"
 }

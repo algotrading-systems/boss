@@ -11,5 +11,10 @@
 	"Option type": "TIP OPTIUNE",
 	"Reliability": "INCREDERE",
 	"Settings": "Setări",
-	"Refresh": "Reîmprospăta"
+	"Refresh": "Reîmprospăta",
+	"Time settings": "Setările de timp",
+	"Use local time": "Utilizați ora locală",
+	"Use local time for signals instead GMT": "Utilizați ora locală de semnale în loc GMT",
+	"Used timezone": "Fus orar curent",
+	"Updated at": "Actualizat la"
 }

@@ -11,5 +11,10 @@
 	"Option type": "OPSİYON TÜRÜ",
 	"Reliability": "GÜVENİLİRLİK",
 	"Settings": "Ayarlar",
-	"Refresh": "Yenile"
+	"Refresh": "Yenile",
+	"Time settings": "Saat ayarları",
+	"Use local time": "Yerel zaman kullanın",
+	"Use local time for signals instead GMT": "GMT yerine sinyaller için yerel saati kullanın",
+	"Used timezone": "Güncel timezone",
+	"Updated at": "Güncellenen"
 }

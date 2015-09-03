@@ -11,5 +11,10 @@
 	"Option type": "Optionsart",
 	"Reliability": "Beständigkeit",
 	"Settings": "Einstellungen",
-	"Refresh": "Erfrischen"
+	"Refresh": "Erfrischen",
+	"Time settings": "Zeiteinstellungen",
+	"Use local time": "Verwenden Sie lokale Zeit",
+	"Use local time for signals instead GMT": "Verwenden Sie lokale Zeit für Signale statt GMT",
+	"Used timezone": "Aktuelle Zeitzone",
+	"Updated at": "Aktualisiert am"
 }

@@ -11,5 +11,10 @@
 	"Option type": "OPCIJAS VEIDS",
 	"Reliability": "TICAMĪBA",
 	"Settings": "Settings",
-	"Refresh": "Atsvaidzināt"
+	"Refresh": "Atsvaidzināt",
+	"Time settings": "Laika uzstādījumi",
+	"Use local time": "Izmantot vietējā laika",
+	"Use local time for signals instead GMT": "Izmantot vietējo laiku signālu vietā GMT",
+	"Used timezone": "Pašreizējā laika",
+	"Updated at": "Atjaunināts at"
 }

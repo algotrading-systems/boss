@@ -9,5 +9,10 @@
 	"Option type": "Typ Option",
 	"Reliability": "Spolehlivost",
 	"Settings": "Nastavení",
-	"Refresh": "Občerstvit"
+	"Refresh": "Občerstvit",
+	"Time settings": "Nastavení času",
+	"Use local time": "Použít místní čas",
+	"Use local time for signals instead GMT": "Použít místní čas pro signály namísto GMT",
+	"Used timezone": "Aktuální časové pásmo",
+	"Updated at": "Aktualizováno na"
 }

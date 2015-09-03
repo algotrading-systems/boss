@@ -11,5 +11,10 @@
 	"Option type": "نوع  الخيار ",
 	"Reliability": "الموثوقية",
 	"Settings": "الإعدادات",
-	"Refresh": "التحديث"
+	"Refresh": "التحديث",
+	"Time settings": "ضبط الوقت",
+	"Use local time": "استخدام بالتوقيت المحلي",
+	"Use local time for signals instead GMT": "استخدام التوقيت المحلي لإشارات بدلا GMT",
+	"Used timezone": "التوقيت الحالي",
+	"Updated at": "تحديث في"
 }

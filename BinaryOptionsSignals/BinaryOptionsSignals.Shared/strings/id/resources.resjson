@@ -11,5 +11,10 @@
 	"Option type": "JENIS OPSI",
 	"Reliability": "KEANDALAN",
 	"Settings": "Pengaturan",
-	"Refresh": "Menyegarkan"
+	"Refresh": "Menyegarkan",
+	"Time settings": "Pengaturan waktu",
+	"Use local time": "Gunakan waktu setempat",
+	"Use local time for signals instead GMT": "Gunakan waktu setempat untuk sinyal bukan GMT",
+	"Used timezone": "Zona waktu saat ini",
+	"Updated at": "Diperbarui pada"
 }

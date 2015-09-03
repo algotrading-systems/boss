@@ -11,5 +11,10 @@
 	"Option type": "Option type",
 	"Reliability": "Pålidelighed",
 	"Settings": "Indstillinger",
-	"Refresh": "Opdater"
+	"Refresh": "Opdater",
+	"Time settings": "Tidsindstillinger",
+	"Use local time": "Brug lokal tid",
+	"Use local time for signals instead GMT": "Brug lokal tid for signaler i stedet GMT",
+	"Used timezone": "Aktuel tidszone",
+	"Updated at": "opdateret på"
 }

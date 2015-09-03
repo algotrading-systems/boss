@@ -11,5 +11,10 @@
 	"Option type": "Option type",
 	"Reliability": "Reliability",
 	"Settings": "Settings",
-	"Refresh": "Refresh"
+	"Refresh": "Refresh",
+	"Time settings": "Time settings",
+	"Use local time": "Use local time",
+	"Use local time for signals instead GMT": "Use local time for signals instead GMT",
+	"Used timezone": "Used timezone",
+	"Updated at": "Updated at"
 }

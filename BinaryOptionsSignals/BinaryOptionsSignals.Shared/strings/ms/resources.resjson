@@ -11,5 +11,10 @@
 	"Option type": "JENIS OPSYEN",
 	"Reliability": "KEBOLEHPERCAYAAN",
 	"Settings": "Tetapan",
-	"Refresh": "Muat semula"
+	"Refresh": "Muat semula",
+	"Time settings": "Tetapan masa",
+	"Use local time": "Gunakan waktu tempatan",
+	"Use local time for signals instead GMT": "Gunakan waktu tempatan untuk isyarat dan bukannya GMT",
+	"Used timezone": "Zon waktu semasa",
+	"Updated at": "Dikemaskini pada"
 }

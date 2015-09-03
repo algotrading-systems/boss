@@ -11,5 +11,10 @@
 	"Option type": "オプションタイプ",
 	"Reliability": "信頼性",
 	"Settings": "[設定]",
-	"Refresh": "リフレッシュ"
+	"Refresh": "リフレッシュ",
+	"Time settings": "時刻の設定",
+	"Use local time": "現地時間を使用します",
+	"Use local time for signals instead GMT": "GMTの代わりに信号のための現地時間を使用します",
+	"Used timezone": "現在のタイムゾーン",
+	"Updated at": "で更新"
 }

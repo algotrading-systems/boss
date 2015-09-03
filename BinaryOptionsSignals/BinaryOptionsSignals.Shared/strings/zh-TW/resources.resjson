@@ -11,5 +11,10 @@
 	"Option type": "选项类型",
 	"Reliability": "可靠性",
 	"Settings": "設置",
-	"Refresh": "刷新"
+	"Refresh": "刷新",
+	"Time settings": "時間設置",
+	"Use local time": "使用本地時間",
+	"Use local time for signals instead GMT": "使用本地時間而不是GMT信號",
+	"Used timezone": "當前時區",
+	"Updated at": "更新時間"
 }

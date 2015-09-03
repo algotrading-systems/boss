@@ -11,5 +11,10 @@
 	"Option type": "TYPE d'OPTION",
 	"Reliability": "FIABILITE",
 	"Settings": "Paramètres",
-	"Refresh": "Rafraîchir"
+	"Refresh": "Rafraîchir",
+	"Time settings": "Réglages de l'heure",
+	"Use local time": "Utilisez heure locale",
+	"Use local time for signals instead GMT": "Utilisez heure locale pour les signaux au lieu GMT",
+	"Used timezone": "Fuseau horaire actuel",
+	"Updated at": "Mis à jour à"
 }
