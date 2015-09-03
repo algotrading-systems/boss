@@ -104,5 +104,33 @@
         localSettings.values["useLocalTime"] = useLocalTime;
     }
 
+    app.toUserTimeString = function (time) {
+        if (!time) {
+            time = new Date();
+        }
+
+        var useLocalTime = app.getUseLocalTime();
+
+        var timeFormatter = new Windows.Globalization.DateTimeFormatting.DateTimeFormatter("longtime");
+
+        if (useLocalTime) {
+            var timeString = timeFormatter.format(time);
+        } else {
+            var timeString = time.getUTCHours() + ':' + ((time.getUTCMinutes() < 10) ? ('0' + time.getUTCMinutes()) : time.getUTCMinutes()) + ':' + time.getUTCSeconds();
+        }
+        
+        return timeString;
+    }
+
+    app.getUsedTimeZoneName = function () {
+        var useLocalTime = app.getUseLocalTime();
+        if (useLocalTime) {
+            var timeFormatter = new Windows.Globalization.DateTimeFormatting.DateTimeFormatter("timezone.full");
+            var timeZoneString = timeFormatter.format(new Date());
+            return timeZoneString;
+        }
+        return 'UTC, Coordinated Universal Time';
+    }
+
     app.start();
 })();

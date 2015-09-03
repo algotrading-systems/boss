@@ -34,6 +34,9 @@
             // 
             document.getElementById('appbar').winControl.show();
 
+            document.getElementById("updated-at-value").innerText = WinJS.Application.toUserTimeString();
+            document.getElementById("time-zone-value").innerText = WinJS.Application.getUsedTimeZoneName();
+
             if (options && options.refresh) {
                 doClickRefresh();
             }
@@ -62,6 +65,8 @@
         WinJS.Utilities.query("#mainProgressBar").removeClass("hidden");
         Data.startLoadingFromCloud().done(function () {
             WinJS.Utilities.query("#mainProgressBar").addClass("hidden");
+            // Update "Updated at" time
+            document.getElementById("updated-at-value").innerText = WinJS.Application.toUserTimeString();
         });
     };
 

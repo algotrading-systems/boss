@@ -182,7 +182,7 @@
 .top-panel {
     width: 100%;
     display: -ms-grid;
-    -ms-grid-columns: 50px 150px 150px 150px 150px;
+    -ms-grid-columns: 25% 25% 25% 25%;
     -ms-grid-rows: 50px;
 }
     .top-panel .label {
@@ -199,20 +199,20 @@
 
     .top-panel .time-zone-label {
         -ms-grid-row: 1;
-        -ms-grid-column: 2;
+        -ms-grid-column: 1;
     }
 
     .top-panel .time-zone-value {
         -ms-grid-row: 1;
+        -ms-grid-column: 2;
+    }
+
+    .top-panel .updated-at-label {
+        -ms-grid-row: 1;
         -ms-grid-column: 3;
     }
 
-    .top-panel .last-refresh-label {
+    .top-panel .updated-at-value {
         -ms-grid-row: 1;
         -ms-grid-column: 4;
-    }
-
-    .top-panel .last-refresh-value {
-        -ms-grid-row: 1;
-        -ms-grid-column: 5;
     }

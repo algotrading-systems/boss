@@ -12,5 +12,7 @@
 	"Refresh": "Обновить",
 	"Time settings": "Настройки времени",
 	"Use local time": "Использовать местное время",
-	"Use local time for signals instead GMT": "Показывать местное время для сигналов вместо GMT"
+	"Use local time for signals instead GMT": "Показывать местное время для сигналов вместо GMT",
+	"Used timezone": "Часовой пояс",
+	"Updated at": "Обновлено"
 }
