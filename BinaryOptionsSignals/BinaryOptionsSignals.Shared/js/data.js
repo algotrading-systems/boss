@@ -11,10 +11,6 @@
     function startLoadingFromCloud(timeout) {
         return new WinJS.Promise(function (completeDispatch, errorDispatch, progressDispatch) {
             function loadIndicators() {
-
-                var timeFormatter = new Windows.Globalization.DateTimeFormatting.DateTimeFormatter("longtime");
-                var useLocalTime = WinJS.Application.getUseLocalTime();
-
                 if (timeout) {
                     WinJS.Promise.timeout(timeout).then(function () {
                         completeDispatch(0);
@@ -31,9 +27,8 @@
 
                     indicators.forEach(function (indicator) {
                         if (indicator.time_frame in indicatorsLists) {
-                            var ltime = timeFormatter.format(new Date(indicator.time));
-                            var lGTMTime = indicator.time.getUTCHours() + ':' + ((indicator.time.getUTCMinutes() < 10) ? ('0' + indicator.time.getUTCMinutes()) : indicator.time.getUTCMinutes()) + ':' + indicator.time.getUTCSeconds();
-                            indicator.timeFormatted = useLocalTime ? ltime : lGTMTime;
+                            indicator.level = Math.max(indicator.level, 1);
+                            indicator.timeFormatted = WinJS.Application.toUserTimeString(indicator.time);
                             indicator.directionTechText = (indicator.direction > 0) ? 'up' : 'down';
                             indicator.directionText = (indicator.direction > 0) ? 'Call' : 'Put';
                             indicator.directionHTML = '<div class="direction-' + indicator.directionTechText + '">' + indicator.directionText + '</div>';

@@ -37,6 +37,8 @@
             });
 
             args.setPromise(promise);
+
+            app.refreshTimer();
         }
     });
 
@@ -116,7 +118,7 @@
         if (useLocalTime) {
             var timeString = timeFormatter.format(time);
         } else {
-            var timeString = time.getUTCHours() + ':' + ((time.getUTCMinutes() < 10) ? ('0' + time.getUTCMinutes()) : time.getUTCMinutes()) + ':' + time.getUTCSeconds();
+            var timeString = time.getUTCHours() + ':' + ((time.getUTCMinutes() < 10) ? ('0' + time.getUTCMinutes()) : time.getUTCMinutes()) + ':' + (time.getUTCSeconds() < 10 ? ('0' + time.getUTCSeconds()) : time.getUTCSeconds());
         }
         
         return timeString;
@@ -130,6 +132,13 @@
             return timeZoneString;
         }
         return 'UTC, Coordinated Universal Time';
+    }
+
+    app.refreshTimer = function () {
+        if (document.getElementById("cmdRefresh")) {
+            document.getElementById("cmdRefresh").click();
+        }
+        WinJS.Promise.timeout(30 * 1000).then(function () {app.refreshTimer();});
     }
 
     app.start();
