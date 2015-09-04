@@ -354,13 +354,16 @@
     </ReservedNames>
   </ProductReservedInfo>
   <AccountPackageIdentityNames>
+    <MainPackageIdentityName>46678Reskator.AmIGoingDown</MainPackageIdentityName>
+    <MainPackageIdentityName>46678Reskator.ForexAdvisor</MainPackageIdentityName>
     <MainPackageIdentityName>46678Reskator.HonestTradingBinaryOptions</MainPackageIdentityName>
+    <MainPackageIdentityName>46678Reskator.SMMStudio</MainPackageIdentityName>
   </AccountPackageIdentityNames>
-  <PackageInfoList LandingUrl="https://appdev.microsoft.com:443/StorePortals/Developer/Catalog/ReleaseAnchor/1ff5452b-5e8d-4da1-95ad-4e53bd4a6b54">
+  <PackageInfoList LandingUrl="https://dev.windows.com/dashboard/Application?appId=9WZDNCRCS8QX">
     <PackageInfo>
       <OsMinVersion>6.3.0.0</OsMinVersion>
       <PackageArchitecture>neutral</PackageArchitecture>
-      <PackageMaxArchitectureVersion>1.3.0.2</PackageMaxArchitectureVersion>
+      <PackageMaxArchitectureVersion>1.4.0.3</PackageMaxArchitectureVersion>
     </PackageInfo>
   </PackageInfoList>
 </StoreAssociation>
