@@ -161,3 +161,43 @@
         .indicators-list .indicator-item .indicator-item-col-level .level-10 {
             background-image: url('/images/levels/level_10.png');
         }
+
+/** Top panel settings */
+.top-panel {
+    margin-top: 15px;
+    width: 100%;
+    display: -ms-grid;
+    -ms-grid-columns: 40% 60%;
+    -ms-grid-rows: auto auto;
+}
+    .top-panel .label {
+        text-align: right;
+        padding-right: 10px;
+    }
+
+    .top-panel .value {
+        text-align: left;
+        padding-left: 10px;
+        font-weight: bold;
+    }
+
+
+    .top-panel .time-zone-label {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+
+    .top-panel .time-zone-value {
+        -ms-grid-row: 1;
+        -ms-grid-column: 2;
+    }
+
+    .top-panel .updated-at-label {
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+
+    .top-panel .updated-at-value {
+        -ms-grid-row: 2;
+        -ms-grid-column: 2;
+    }

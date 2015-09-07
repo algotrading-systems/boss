@@ -20,6 +20,12 @@
             </h1>
         </header>
         <section aria-label="Main content" role="main">
+            <div class="top-panel">
+                <div class="time-zone-label label" data-win-res="{textContent: 'Used timezone'}"></div>
+                <div class="time-zone-value value" id="time-zone-value"></div>
+                <div class="updated-at-label label" data-win-res="{textContent: 'Updated at'}"></div>
+                <div class="updated-at-value value" id="updated-at-value"></div>
+            </div>
             <!-- Настроим элемент управления Hub, изменив здесь элементы управления HubSection. -->
             <div class="hub" data-win-control="WinJS.UI.Pivot">
                 <div class="section1 section" data-win-control="WinJS.UI.PivotItem" data-win-res="{winControl: {header: '1 Hour'}}">
